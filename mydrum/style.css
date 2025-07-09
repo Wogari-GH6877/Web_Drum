@@ -1,0 +1,81 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color:cyan;
+
+}
+.container .kits{
+    margin-top: 200px;
+}
+h1{
+    display: flex;
+    margin-top: 50px;
+    font-size: 100px;
+    justify-content: center;
+    background-color: rgb(37, 33, 158);
+    padding-left: 10px;
+    color: white;
+    box-shadow: 0 10px 15px gray;
+}
+.drum{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    background-color: brown;
+    border:5px solid black;
+    box-shadow: 0 20px 15px gray;
+}
+
+
+
+
+ .hats{
+    background-image: url(./image/snare.png);
+    
+}
+
+.kick{
+    background-image: url(./image/kick.png);
+   
+
+}
+
+.tom3{
+    background-image: url(./image/tom-3.jpg);
+    
+}
+
+.tom2{
+    background-image: url(./image/tom-2.png);
+    
+
+}
+.tom1{
+    background-image: url(./image/tom-1.jpg);
+    
+
+}
+
+.snare{
+    background-image: url(./image/hats.jpg);
+   
+
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+footer{
+    position: absolute;
+    bottom: 15px;
+}
